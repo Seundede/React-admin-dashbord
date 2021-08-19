@@ -1,0 +1,6 @@
+.home { flex: 4;}
+.home__widget {
+    display: flex;
+    margin: 20px;
+    
+}

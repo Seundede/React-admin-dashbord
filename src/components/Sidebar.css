@@ -1,0 +1,33 @@
+.sidebar {
+   flex: 1;
+   height: calc(100vh - 50px);
+   background-color: whitesmoke;
+   top: 50px;
+   position: sticky;
+   
+}
+.sidebar__container {
+    padding: 20px;
+}
+.sidebar__menu {
+    margin-bottom: 15px;
+}
+.sidebar__title {
+    font-size: 13px;
+    color: rgb(139, 105, 42);
+    margin-bottom: 10px;
+}
+.sidebar__ullist {
+    list-style: none;
+    padding: px;
+}
+.sidebar__ullist  li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.sidebar__icon {
+    font-size: 20px !important;
+    margin-right: 5px !important;
+}

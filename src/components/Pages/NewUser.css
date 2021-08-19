@@ -1,0 +1,39 @@
+.newUser {
+    flex: 4;
+    padding: 20px;
+}
+.newUser__form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.newUser__item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.newUser__item label {
+    font-size: 14px;
+    color: grey;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.newUser__item input {
+    height: 20px;
+    padding: 10px;
+    
+}
+select {
+    height: 40px;
+}
+.newuser__button {
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+}

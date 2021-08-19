@@ -1,0 +1,47 @@
+.header {
+  background-color: #fff;
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 20px;
+}
+.header__logo {
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__icons {
+  position: relative;
+  cursor: pointer;
+  margin-right: 5px;
+  color: grey;
+}
+.header__badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  top: -5px;
+  background-color: red;
+  color: white;
+  width: 15px;
+  border-radius: 50%;
+}
+.header__avatar {
+  height: 35px !important;
+  width: 40px !important;
+  cursor: pointer;
+}
